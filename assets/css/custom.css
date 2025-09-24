@@ -1,0 +1,282 @@
+/* dubai page  */
+.dubai-hero {
+    min-height: 60vh;
+    background: url("../img/common/dubai-bg.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.dubai-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dubai-hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* ========== Overview Section ========== */
+.dubai-overview {
+    background-color: #f9f9f9;
+}
+
+.dubai-overview img {
+    max-width: 100%;
+    border: 5px solid #fff;
+}
+
+/* ========== Highlights Section ========== */
+.property-highlights {
+    background-color: #f1f1f1;
+}
+
+.highlight-card {
+    border-radius: 8px;
+}
+
+/* ========== Gallery Section ========== */
+.dubai-gallery img {
+    transition: transform 0.3s ease;
+}
+
+.dubai-gallery img:hover {
+    transform: scale(1.02);
+}
+
+/* ========== Amenities Section ========== */
+.dubai-amenities .card {
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* ========== Location Section ========== */
+.dubai-location .ratio iframe {
+    border: 0;
+}
+
+/* ========== Contact Section ========== */
+.dubai-contact {
+    background-image: url("https://via.placeholder.com/1920x1080");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.dubai-contact::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dubai-contact .container,
+.dubai-contact h2,
+.dubai-contact p,
+.dubai-contact form {
+    position: relative;
+    z-index: 1;
+}
+
+.sec-st-banner {
+    padding: 50px 0px;
+}
+
+.fixed-icons {
+    position: fixed;
+    top: 65%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 999;
+  }
+  
+  .fixed-icons .icon {
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    font-size: 27px;
+    /* padding: 12px; */
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  
+  .fixed-icons .icon.call {
+    background-color: #007BFF; /* Blue for call */
+  }
+  
+  .fixed-icons .icon:hover {
+    opacity: 0.85;
+  }
+
+  body.modal-open {
+    padding-right: 0px !important;
+}
+
+/* aprtment page  css */
+.st-aprt {
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -100px;
+    position: relative;
+}
+.st-bread{
+    z-index: unset !important;
+}
+.str-1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* new listing css */
+
+.card-custom {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.project-image-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.project-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.con-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    /* full dark overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* text at bottom */
+    padding: 15px;
+    color: #fff;
+    z-index: 2;
+}
+
+.con-overlay h5,
+.con-overlay p,
+.con-overlay h6 {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}
+.gt-part-lg{
+ height: 358px;
+ width: 100%;
+}
+.gt-aprt{
+ height: 175px;
+ width: 100%;
+}
+.gt-part-lg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.gt-aprt img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.badge-sm {
+    font-size: 0.6rem;
+    padding: 0.2em 0.5em;
+}
+.rt-grid {
+    padding: 10px;
+    height: 150px;
+}
+
+.offcan-width-custom{
+    width: 70% !important;
+}
+
+.amenities-bx{
+    height: 120px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+}
+.amenities-bx i {
+    font-size: 30px;
+    margin-bottom: 30px !important;
+    color: #0a6faa !important;
+}
+
+#stickyForm {
+    transition: all 0.3s ease;
+  }
+.fixed-form {
+    position: fixed;
+    top: 100px;
+    width: 25%; 
+    /* z-index: 1000; */
+}
+.star {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #f5c518;
+}
+.more-list {
+    display: none;
+}
+.more-text:hover + .more-list {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec-st-banner {
+        padding: 100px 0px;
+    }
+    a.navbar-brand img {
+        width: 200px;
+    }
+    .offcan-width-custom{
+        width: Auto !important;
+    }
+    .offcan-width-custom-2{
+        width: Auto !important;
+    }
+    #stickyForm {
+        transition: all 0.3s ease;
+      }
+    .fixed-form {
+        position: unset;
+        top: 100px;
+        width: 25%; 
+        
+    }
+}
