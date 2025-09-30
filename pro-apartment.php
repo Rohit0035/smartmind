@@ -882,22 +882,24 @@
                                     <nav>
                                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                             <button class="nav-link active" id="nav-possessiononeyear-tab"
-                                                data-bs-toggle="tab" data-bs-target="#nav-possessiononeyear" type="button"
-                                                role="tab" aria-controls="nav-possessiononeyear" aria-selected="true">
+                                                data-bs-toggle="tab" data-bs-target="#nav-possessiononeyear"
+                                                type="button" role="tab" aria-controls="nav-possessiononeyear"
+                                                aria-selected="true">
                                                 1 Year</button>
                                             <button class="nav-link" id="nav-possessiontwoyear-tab" data-bs-toggle="tab"
                                                 data-bs-target="#nav-possessiontwoyear" type="button" role="tab"
                                                 aria-controls="nav-possessiontwoyear" aria-selected="false">
                                                 2 Years</button>
-                                            <button class="nav-link" id="nav-possessionthreeyear-tab" data-bs-toggle="tab"
-                                                data-bs-target="#nav-possessionthreeyear" type="button" role="tab"
-                                                aria-controls="nav-possessionthreeyear" aria-selected="false">
+                                            <button class="nav-link" id="nav-possessionthreeyear-tab"
+                                                data-bs-toggle="tab" data-bs-target="#nav-possessionthreeyear"
+                                                type="button" role="tab" aria-controls="nav-possessionthreeyear"
+                                                aria-selected="false">
                                                 3 Years</button>
                                         </div>
                                     </nav>
                                     <div class="tab-content" id="nav-tabContent">
-                                        <div class="tab-pane fade show active" id="nav-possessiononeyear" role="tabpanel"
-                                            aria-labelledby="nav-possessiononeyear-tab">
+                                        <div class="tab-pane fade show active" id="nav-possessiononeyear"
+                                            role="tabpanel" aria-labelledby="nav-possessiononeyear-tab">
                                             <div class="owl-carousel just-lunched mt-4 ">
                                                 <div class="item">
                                                     <a href="#" class="w-100">
@@ -1099,10 +1101,13 @@
 
                     </div>
                     <div class="tab-pane fade" id="nav-topagents" role="tabpanel" aria-labelledby="nav-topagents-tab">
-                        ...
+
+                        <?php include 'agentcard.php'; ?>
+
+
                     </div>
                     <div class="tab-pane fade" id="nav-properties" role="tabpanel" aria-labelledby="nav-properties-tab">
-                        ...
+                        <?php include 'propertycard.php'; ?>
                     </div>
                 </div>
             </div>
