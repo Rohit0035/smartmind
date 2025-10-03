@@ -23,8 +23,8 @@
                         <img src="assets/img/blog/01.jpg" alt="Thumb"  class="w-100 object-fit-cover" style="height:230px;">
                     </div>
                     <div class="blog-item-info">
-                        <h4 class="blog-title strovertext">
-                            <a href="blogdetail.php">There are many variations of passages available suffer</a>
+                        <h4 class="blog-title ">
+                            <a href="blogdetail.php" class="strovertext">There are many variations of passages available suffer</a>
                         </h4>
                         <p class="strovertext">
                             There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -34,15 +34,15 @@
                     </div>
                 </div>
             </div>
-             <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4">
                 <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s"
                     style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInUp;">
                     <div class="blog-item-img">
                         <img src="assets/img/blog/01.jpg" alt="Thumb"  class="w-100 object-fit-cover" style="height:230px;">
                     </div>
                     <div class="blog-item-info">
-                        <h4 class="blog-title strovertext">
-                            <a href="blogdetail.php">There are many variations of passages available suffer</a>
+                        <h4 class="blog-title ">
+                            <a href="blogdetail.php" class="strovertext">There are many variations of passages available suffer</a>
                         </h4>
                         <p class="strovertext">
                             There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -52,15 +52,15 @@
                     </div>
                 </div>
             </div>
-             <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4">
                 <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s"
                     style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInUp;">
                     <div class="blog-item-img">
                         <img src="assets/img/blog/01.jpg" alt="Thumb"  class="w-100 object-fit-cover" style="height:230px;">
                     </div>
                     <div class="blog-item-info">
-                        <h4 class="blog-title strovertext">
-                            <a href="blogdetail.php">There are many variations of passages available suffer</a>
+                        <h4 class="blog-title ">
+                            <a href="blogdetail.php" class="strovertext">There are many variations of passages available suffer</a>
                         </h4>
                         <p class="strovertext">
                             There are many variations of passages of Lorem Ipsum available, but the majority have
