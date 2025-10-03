@@ -111,6 +111,210 @@
                     </div>
                 </div>
 
+                 <div class="col-lg-12 mb-3">
+                    <div class="card border-0 shadow-sm p-2">
+                        <div class="row g-0">
+                            <!-- Image Slider -->
+                            <div class="col-12 col-md-12 col-lg-3 mb-2">
+                                <div class="owl-carousel owl-theme prorentlist">
+                                    <div class="item">
+                                        <a href="propertydetails.php" class="w-100">
+                                            <img src="assets/img/common/property-abt.jpg"
+                                                style="width:100%; height:250px; object-fit:cover;" class="rounded"
+                                                alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="propertydetails.php" class="w-100">
+                                            <img src="assets/img/common/property-abt.jpg"
+                                                style="width:100%; height:250px; object-fit:cover;" class="rounded"
+                                                alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="propertydetails.php" class="w-100">
+                                            <img src="assets/img/common/city/city1.png"
+                                                style="width:100%; height:250px; object-fit:cover;" class="rounded"
+                                                alt="...">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owner-name mt-1">
+                                    <h6 class="card-title mb-1 d-flex align-items-center">
+                                        <span>Owner Name: <span><b>Test</b></span>
+                                            <span class="badge bg-success mt-1  d-flex align-items-center">
+                                                <i class="fas fa-check-circle me-1"></i> Premuim Member
+                                            </span>
+                                    </h6>
+                                </div>
+                            </div>
+                            <!-- Content -->
+                            <div class="col-md-8  col-12 col-md-12 col-lg-7">
+                                <div class="card-body p-3">
+                                    <h5 class="mb-2">
+                                        <a href="propertydetails.php" class="strprotext">
+                                            3 BHK Apartment for Rent in Yelahanka Bangalore
+                                        </a>
+                                    </h5>
+                                    <p class="mb-2 text-muted small">Brigade Northridge</p>
+                                    <div class="row text-center py-2 mb-3">
+                                        <div class="col ">
+                                            <i class="fas fa-couch text-primary"></i>
+                                            <p class="small mb-0">Semi-Furnished</p>
+                                        </div>
+                                        <div class="col ">
+                                            <i class="fas fa-bath text-primary"></i>
+                                            <p class="small mb-0"> bath 3</p>
+                                        </div>
+                                        <div class="col ">
+                                            <i class="fas fa-user text-primary"></i>
+                                            <p class="small mb-0">Bachelors</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fas fa-calendar-check text-primary"></i>
+                                            <p class="small mb-0">Immediately</p>
+                                        </div>
+                                        <div class="col ">
+                                            <i class="fas fa-ruler-combined text-primary"></i>
+                                            <p class="small mb-0">1660 sqft</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fas fa-building text-primary"></i>
+                                            <p class="small mb-0">10 of 12</p>
+                                        </div>
+                                    </div>
+
+                                    <p class="text-success mb-1"><i class="fas fa-check-circle"></i> East Facing
+                                        Property
+                                    </p>
+                                    <p class="small text-muted mb-2">open space and greenery around. The monthly
+                                        maintenance
+                                        is ₹6500/-.</p>
+                                </div>
+                            </div>
+                            <!-- Content price -->
+                            <div class="col-md-8  col-12 col-md-12 col-lg-2">
+                                <div class="card h-100 bg-light border-0">
+                                    <div
+                                        class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                                        <h3 class="fw-bold text-dark mb-3">₹45,000</h3>
+                                        <div>
+                                            <button class="btn btn-primary rounded-pill w-100 mb-2"
+                                                data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                                                Owner</button>
+                                            <button class="btn btn-outline-primary rounded-pill w-100"
+                                                data-bs-toggle="modal" data-bs-target="#contactModal">Check
+                                                Availability</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-lg-12 mb-3">
+                    <div class="card border-0 shadow-sm p-2">
+                        <div class="row g-0">
+                            <!-- Image Slider -->
+                            <div class="col-12 col-md-12 col-lg-3 mb-2">
+                                <div class="owl-carousel owl-theme prorentlist">
+                                    <div class="item">
+                                        <a href="propertydetails.php" class="w-100">
+                                            <img src="assets/img/common/property-abt.jpg"
+                                                style="width:100%; height:250px; object-fit:cover;" class="rounded"
+                                                alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="propertydetails.php" class="w-100">
+                                            <img src="assets/img/common/property-abt.jpg"
+                                                style="width:100%; height:250px; object-fit:cover;" class="rounded"
+                                                alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="propertydetails.php" class="w-100">
+                                            <img src="assets/img/common/city/city1.png"
+                                                style="width:100%; height:250px; object-fit:cover;" class="rounded"
+                                                alt="...">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owner-name mt-1">
+                                    <h6 class="card-title mb-1 d-flex align-items-center">
+                                        <span>Owner Name: <span><b>Test</b></span>
+                                            <span class="badge bg-success mt-1  d-flex align-items-center">
+                                                <i class="fas fa-check-circle me-1"></i> Premuim Member
+                                            </span>
+                                    </h6>
+                                </div>
+                            </div>
+                            <!-- Content -->
+                            <div class="col-md-8  col-12 col-md-12 col-lg-7">
+                                <div class="card-body p-3">
+                                    <h5 class="mb-2">
+                                        <a href="propertydetails.php" class="strprotext">
+                                            3 BHK Apartment for Rent in Yelahanka Bangalore
+                                        </a>
+                                    </h5>
+                                    <p class="mb-2 text-muted small">Brigade Northridge</p>
+                                    <div class="row text-center py-2 mb-3">
+                                        <div class="col ">
+                                            <i class="fas fa-couch text-primary"></i>
+                                            <p class="small mb-0">Semi-Furnished</p>
+                                        </div>
+                                        <div class="col ">
+                                            <i class="fas fa-bath text-primary"></i>
+                                            <p class="small mb-0"> bath 3</p>
+                                        </div>
+                                        <div class="col ">
+                                            <i class="fas fa-user text-primary"></i>
+                                            <p class="small mb-0">Bachelors</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fas fa-calendar-check text-primary"></i>
+                                            <p class="small mb-0">Immediately</p>
+                                        </div>
+                                        <div class="col ">
+                                            <i class="fas fa-ruler-combined text-primary"></i>
+                                            <p class="small mb-0">1660 sqft</p>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fas fa-building text-primary"></i>
+                                            <p class="small mb-0">10 of 12</p>
+                                        </div>
+                                    </div>
+
+                                    <p class="text-success mb-1"><i class="fas fa-check-circle"></i> East Facing
+                                        Property
+                                    </p>
+                                    <p class="small text-muted mb-2">open space and greenery around. The monthly
+                                        maintenance
+                                        is ₹6500/-.</p>
+                                </div>
+                            </div>
+                            <!-- Content price -->
+                            <div class="col-md-8  col-12 col-md-12 col-lg-2">
+                                <div class="card h-100 bg-light border-0">
+                                    <div
+                                        class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                                        <h3 class="fw-bold text-dark mb-3">₹45,000</h3>
+                                        <div>
+                                            <button class="btn btn-primary rounded-pill w-100 mb-2"
+                                                data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                                                Owner</button>
+                                            <button class="btn btn-outline-primary rounded-pill w-100"
+                                                data-bs-toggle="modal" data-bs-target="#contactModal">Check
+                                                Availability</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- pagination -->
                 <div class="pagination-area">
                     <div aria-label="Page navigation example">

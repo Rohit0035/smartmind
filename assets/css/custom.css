@@ -277,7 +277,59 @@
   overflow: hidden;
   text-overflow: ellipsis; 
 }
+ .unq-card-wrapper {
+      width: 100%;
+      height: 220px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+    }
 
+    .unq-card-front,
+    .unq-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      background-color: #fff;
+      top: 0;
+      left: 0;
+      transition: transform 0.5s ease;
+      backface-visibility: hidden;
+    }
+
+    .unq-card-back {
+      transform: translateY(100%);
+      background-color: #f8f9fa;
+    }
+
+    .unq-card-wrapper:hover .unq-card-back {
+      transform: translateY(0%);
+    }
+
+    .unq-card-wrapper:hover .unq-card-front {
+      transform: translateY(-100%);
+    }
+
+    .unq-contact-btn {
+      background-color: #d32f2f;
+      color: white;
+      border-radius: 20px;
+      padding: 6px 16px;
+      text-decoration: none;
+    }
+
+    .unq-contact-btn:hover {
+      background-color: #b71c1c;
+      color: white;
+    }
+
+    .fa-check-circle {
+      color: #4caf50;
+      margin-right: 8px;
+    }
 
 @media only screen and (max-width: 600px) {
     .sec-st-banner {
