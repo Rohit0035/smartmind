@@ -60,9 +60,9 @@
                              </button>
                          </div>
                          <div class="col-12 col-md-6 col-lg-6">
-                             <button class="btn btn-outline-primary rounded-pill w-100 mb-2">
+                             <a href="agent-details.php" class="btn btn-outline-primary rounded-pill w-100 mb-2">
                                  <i class="fa-solid fa-eye me-2"></i> View Details
-                             </button>
+                             </a>
                          </div>
                      </div>
                  </div>
@@ -130,9 +130,9 @@
                              </button>
                          </div>
                          <div class="col-12 col-md-6 col-lg-6">
-                             <button class="btn btn-outline-primary rounded-pill w-100 mb-2">
+                             <a href="agent-details.php" class="btn btn-outline-primary rounded-pill w-100 mb-2">
                                  <i class="fa-solid fa-eye me-2"></i> View Details
-                             </button>
+                             </a>
                          </div>
                      </div>
                  </div>

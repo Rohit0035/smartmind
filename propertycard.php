@@ -61,9 +61,10 @@
                                         </button>
                                     </div>
                                     <div class="col-12 col-lg-6 mb-2">
-                                        <button class="btn btn-outline-primary rounded-pill ms-2 w-100">
+                                        <a href="propertydetails.php"
+                                            class="btn btn-outline-primary rounded-pill ms-2 w-100">
                                             <i class="fa-solid fa-info me-2"></i> Get Info
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +122,8 @@
                         </p>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="h5 text-primary py-2">₹1.09 Cr <span class="text-muted">₹8,722 per sqft</span>
+                                <div class="h5 text-primary py-2">₹1.09 Cr <span class="text-muted">₹8,722 per
+                                        sqft</span>
                                     <span class="badge bg-success">
                                         <i class="fa-solid fa-check me-2"></i> Zero Brokerage
                                     </span>
@@ -135,9 +137,10 @@
                                         </button>
                                     </div>
                                     <div class="col-12 col-lg-6 mb-2">
-                                        <button class="btn btn-outline-primary rounded-pill ms-2 w-100">
+                                        <a href="propertydetails.php"
+                                            class="btn btn-outline-primary rounded-pill ms-2 w-100">
                                             <i class="fa-solid fa-info me-2"></i> Get Info
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

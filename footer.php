@@ -34,6 +34,7 @@
                         <ul class="footer-list">
                             <li><a href="index.php"><i class="fas fa-angle-double-right"></i>Home</a></li>
                             <li><a href="about.php"><i class="fas fa-angle-double-right"></i> About</a></li>
+                            <li><a href="blog.php"><i class="fas fa-angle-double-right"></i> blog</a></li>
                             <li><a href="gallery.php"><i class="fas fa-angle-double-right"></i> Gallery</a></li>
                             <li><a href="contact.php"><i class="fas fa-angle-double-right"></i> Contact</a></li>
                         </ul>
