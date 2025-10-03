@@ -268,6 +268,9 @@
         font-size: 14px !important;
     }
 }
+.sec-prodetail {
+    padding: 30px 0px;
+}
 .strovertext {
   white-space: nowrap; 
   width: 100%; 
@@ -301,6 +304,9 @@
     .pro-sec-detial {
       padding-top: 90px;
       padding-bottom: 50px;
+   }
+   .sec-prodetail {
+    padding: 80px 0px;
    }
 
 }

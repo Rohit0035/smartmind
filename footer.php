@@ -168,6 +168,13 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/chart.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox'
+  });
+</script>
+
 </body>
 
 </html>

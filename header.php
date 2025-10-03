@@ -26,14 +26,11 @@
     <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <!-- <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
-        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-        
-    <!-- chart js -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </head>
 
@@ -73,7 +70,7 @@
                                 <li>
                                     <div class="header-top-contact-info">
                                         <a href="tel:+919916790207"><i class="far fa-phone-arrow-down-left"></i>
-                                          +91 99167 90207</a>
+                                            +91 99167 90207</a>
                                     </div>
                                 </li>
                                 <li>
@@ -94,7 +91,8 @@
                             <a href="#"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div> -->
-                        <marquee style="font-size:14px" class="text-white fw-bold " behavior="scroll" direction="left" scrollamount="5">
+                        <marquee style="font-size:14px" class="text-white fw-bold " behavior="scroll" direction="left"
+                            scrollamount="5">
                             🏡 Buy | Sell | Rent | Invest in Prime Properties | Exclusive Real Estate Deals | Contact Us
                             Today! 📞
                         </marquee>
