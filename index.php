@@ -17,12 +17,13 @@
                         <div class="col-lg-12 mx-auto">
                             <div class="hero-content text-center">
                                 <div class="hero-content-wrapper">
-                                    <h1 class="hero-title" data-animation="fadeInUp" data-delay=".25s">Find Your Dream
+                                    <h1 class="hero-title mb-2" data-animation="fadeInUp" data-delay=".25s">Find Your
+                                        Dream
                                         Home</h1>
-                                    <p data-animation="fadeInUp" data-delay=".50s">
+                                    <p class="mt-0" data-animation="fadeInUp" data-delay=".50s">
                                         Discover a wide range of new and featured properties in your local city.
                                     </p>
-                                    <div class="hero-btn d-block mt-5" data-animation="fadeInUp" data-delay=".75s">
+                                    <div class="hero-btn d-block" data-animation="fadeInUp" data-delay=".75s">
                                         <a href="#" class="theme-btn">Browse Dream House <i
                                                 class="far fa-arrow-right"></i></a>
                                     </div>
@@ -38,14 +39,14 @@
                         <div class="col-lg-12 mx-auto">
                             <div class="hero-content text-center">
                                 <div class="hero-content-wrapper">
-                                    <h1 class="hero-title" data-animation="fadeInUp" data-delay=".25s"> Smart
+                                    <h1 class="hero-title mb-2" data-animation="fadeInUp" data-delay=".25s"> Smart
                                         Investments
                                         <span>Secure</span> Future
                                     </h1>
-                                    <p data-animation="fadeInUp" data-delay=".50s">
+                                    <p class="mt-0" data-animation="fadeInUp" data-delay=".50s">
                                         Invest in prime properties with high returns.
                                     </p>
-                                    <div class="hero-btn d-block mt-5" data-animation="fadeInUp" data-delay=".75s">
+                                    <div class="hero-btn d-block" data-animation="fadeInUp" data-delay=".75s">
                                         <a href="#" class="theme-btn">Explore Investment Options <i
                                                 class="far fa-arrow-right"></i></a>
                                     </div>
@@ -55,20 +56,20 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-single" style="background: url(assets/img/hero/hero-3.jpg)">
+            <!-- <div class="hero-single" style="background: url(assets/img/hero/hero-3.jpg)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-12 mx-auto">
                             <div class="hero-content text-center">
                                 <div class="hero-content-wrapper">
-                                    <h1 class="hero-title" data-animation="fadeInUp" data-delay=".25s"> Personalized
+                                    <h1 class="hero-title mb-2" data-animation="fadeInUp" data-delay=".25s"> Personalized
                                         Interiors
                                         <span>Luxury</span> Living
                                     </h1>
-                                    <p data-animation="fadeInUp" data-delay=".50s">
+                                    <p  class="mt-0" data-animation="fadeInUp" data-delay=".50s">
                                         Transform your home with bespoke interior designs that reflect your style.
                                     </p>
-                                    <div class="hero-btn d-block mt-5" data-animation="fadeInUp" data-delay=".75s">
+                                    <div class="hero-btn d-block" data-animation="fadeInUp" data-delay=".75s">
                                         <a href="#" class="theme-btn">Get Inspired <i
                                                 class="far fa-arrow-right"></i></a>
                                     </div>
@@ -77,11 +78,159 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
         </div>
     </div>
     <!-- hero area end -->
 
+
+    <!-- section for serach filter start -->
+
+    <div class="search-area">
+        <div class="container">
+            <div class="search-wrapper bg-light px-3 py-4 rounded-5">
+                <div class="search-nav">
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-tab-1" data-bs-toggle="pill"
+                                data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                                aria-selected="true">For Buy</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-tab-3" data-bs-toggle="pill" data-bs-target="#pills-3"
+                                type="button" role="tab" aria-controls="pills-3" aria-selected="false">For Rent</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-tab-1"
+                        tabindex="0">
+                        <div class="search-form">
+                            <form action="#">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <select class="select">
+                                                <option value="">Location</option>
+                                                <option value="1">Bangalore</option>
+                                                <option value="2">Hyderabad</option>
+                                            </select>
+                                            <i class="far fa-location-dot"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <select class="select">
+                                                <option value="">Property Type</option>
+                                                <option value="apartment">Apartment</option>
+                                                <option value="house-flat">House / Flat</option>
+                                                <option value="villa">Villa</option>
+                                                <option value="plot">Plot</option>
+                                                <option value="residential">Residential</option>
+                                                <option value="commercial">Commercial</option>
+                                                <option value="1bhk">1 BHK</option>
+                                                <option value="2bhk">2 BHK</option>
+                                                <option value="3bhk">3 BHK</option>
+                                                <option value="4bhk">4 BHK</option>
+                                                <option value="5bhk">5 BHK</option>
+                                                <option value="5plusbhk">5+ BHK</option>
+                                            </select>
+                                            <i class="far fa-home"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <select class="select">
+                                                <option value="">Budget</option>
+                                                <option value="5lac">₹5 Lac – ₹10 Lac</option>
+                                                <option value="10lac">₹10 Lac – ₹25 Lac</option>
+                                                <option value="25lac">₹25 Lac – ₹50 Lac</option>
+                                                <option value="50lac">₹50 Lac – ₹1 Crore</option>
+                                                <option value="1cr">₹1 Crore – ₹2 Crore</option>
+                                                <option value="2cr">₹2 Crore – ₹5 Crore</option>
+                                                <option value="5cr">₹5 Crore – ₹10 Crore</option>
+                                                <option value="10cr">₹10 Crore – ₹20 Crore</option>
+                                                <option value="20crplus">Above ₹20 Crore</option>
+                                            </select>
+                                            <i class="far fa-home"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <button type="submit" class="theme-btn"><span
+                                                class="far fa-search"></span>Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-tab-3" tabindex="0">
+                        <div class="search-form">
+                            <form action="#">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <select class="select">
+                                                <option value="">Location</option>
+                                                <option value="1">Bangalore</option>
+                                                <option value="2">Hyderabad</option>
+                                            </select>
+                                            <i class="far fa-location-dot"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <select class="select">
+                                                <option value="">Property Type</option>
+                                                <option value="apartment">Apartment</option>
+                                                <option value="house-flat">House / Flat</option>
+                                                <option value="villa">Villa</option>
+                                                <option value="plot">Plot</option>
+                                                <option value="residential">Residential</option>
+                                                <option value="commercial">Commercial</option>
+                                                <option value="1bhk">1 BHK</option>
+                                                <option value="2bhk">2 BHK</option>
+                                                <option value="3bhk">3 BHK</option>
+                                                <option value="4bhk">4 BHK</option>
+                                                <option value="5bhk">5 BHK</option>
+                                                <option value="5plusbhk">5+ BHK</option>
+                                            </select>
+                                            <i class="far fa-home"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <select class="select">
+                                                <option value="">Budget</option>
+                                                <option value="5lac">₹5 Lac – ₹10 Lac</option>
+                                                <option value="10lac">₹10 Lac – ₹25 Lac</option>
+                                                <option value="25lac">₹25 Lac – ₹50 Lac</option>
+                                                <option value="50lac">₹50 Lac – ₹1 Crore</option>
+                                                <option value="1cr">₹1 Crore – ₹2 Crore</option>
+                                                <option value="2cr">₹2 Crore – ₹5 Crore</option>
+                                                <option value="5cr">₹5 Crore – ₹10 Crore</option>
+                                                <option value="10cr">₹10 Crore – ₹20 Crore</option>
+                                                <option value="20crplus">Above ₹20 Crore</option>
+                                            </select>
+                                            <i class="far fa-home"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <button type="submit" class="theme-btn"><span
+                                                class="far fa-search"></span>Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section search filter close -->
 
 
     <!-- category area -->
